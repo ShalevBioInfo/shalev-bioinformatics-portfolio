@@ -4,7 +4,7 @@
 
 **The Challenge:** In computational biology, moving from raw data to insight is often a non-linear, poorly documented process. The challenge is to create a workflow that is not only scientifically sound but also **transparent, modular, and reproducible.**
 
-**Our Solution (What this code demonstrates):** This repository documents the **step-by-step framework** used for this analysis. The scripts are not just one-off tools; they are the modular components of this framework, each performing a distinct, well-documented task (Filter, Enrich, Quantify, Validate, Visualize).
+**Our Solution (What this code demonstrates):** This repository documents the **step-by-step framework** used for this analysis. The scripts are not just one-off tools; they are the modular components of a reproducible, multi-step pipeline built to systematically filter, enrich, quantify, validate, and visualize these clusters.
 
 ---
 
@@ -49,7 +49,7 @@ This project is structured as a chronological pipeline, where each script perfor
 * **Scientific Goal:** To create final, publication-ready figures summarizing the analysis.
 * **Scripts:**
     * `cluster_evidence_viz.py`: Generates complex stacked bar plots to visualize the evidence composition of all 27 clusters (as seen in **Figure X2**).
-    * `gene_list_to_lpp_heatmap.R`: A script from the `heatmap_visualization` project used to generate the final LPP heatmaps, stratified by evidence category (as seen in **Figure X3**).
+    * `lpp_multi_cluster_heatmap_with_inclusion.R`: (Located in `heatmap_visualization`) Generates the final annotated LPP heatmaps, stratified by evidence category (as seen in **Figure X3**).
 
 ---
 
@@ -67,7 +67,7 @@ All Python scripts are robust CLI tools featuring `argparse`, `logging`, and `pa
 | `extract_subsets_by_terms.py` | (Step 3) Utility script to extract specific functional subgroups for analysis. |
 | `cluster_evidence_viz.py` | (Step 6) Creates the stacked bar plot of evidence composition (powers Fig. X2). |
 
-*(Note: The R scripts for generating final LPP/NPP heatmaps (Fig. X3) are located in the `../heatmap_visualization` project folder.)*
+*(Note: The R script `lpp_multi_cluster_heatmap_with_inclusion.R`, used for generating the final LPP heatmaps stratified by evidence (Fig. X3), is located in the [`../heatmap_visualization`](../heatmap_visualization) project folder. It demonstrates advanced multi-cluster visualization with annotations.)*
 
 ---
 
