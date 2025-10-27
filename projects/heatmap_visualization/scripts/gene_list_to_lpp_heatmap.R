@@ -9,7 +9,7 @@
 #   Generate publication-ready heatmaps of Local Phylogenetic Profiles (LPP)
 #   for a user-specified gene list; export PNG/PDF + sorted CSV + row order.
 #
-# High-level NOTES (professional warnings in English):
+# High-level NOTES:
 #   - Bioconductor packages (ComplexHeatmap, circlize) are installed via BiocManager
 #     if missing — this script will attempt installation when run interactively but
 #     in production it's recommended to manage dependencies outside the script
@@ -19,7 +19,6 @@
 #     when generating smaller output. See CLI below.
 #   - Single-gene or empty-gene inputs are handled gracefully (no clustering).
 #
-# Suggested commit message when adding to git:
 #   analysis: add gene_list_to_lpp_heatmap.R (LPP heatmap generator, documented)
 ################################################################################
 
