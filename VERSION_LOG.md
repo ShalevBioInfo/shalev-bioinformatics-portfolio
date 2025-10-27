@@ -6,3 +6,4 @@ This file records manual uploads and changes to the portfolio.
 |------|----------|--------------|
 | 2025-10-27 | Setup | Created repository structure (README, LICENSE, .gitignore, projects/, notebooks/). |
 | 2025-10-27 | Project: cilia_clusters | Added initial README and empty scripts/results folders. |
+2025-10-27 | Projects | Add templates: heatmap_visualization (NPP/LPP demo), local_evolutionary_barcode_segments (LBS), project_placeholder; add scripts/.keep files.
