@@ -1,14 +1,16 @@
 # Project: Ciliary Cluster Computational Pipeline
 
-**Purpose:** To present the complete computational workflow used to systematically filter, enrich, quantify, validate, and visualize co-evolutionary gene clusters associated with Cilia.
+**Purpose:** This project serves as a **case study** of a **complete computational framework** developed for solving a common challenge in genomics: moving from raw, large-scale phylogenetic data into a validated, functionally-enriched, and **publishable analysis**.
 
-This project moves beyond simple annotation to demonstrate a full, reproducible pipeline for identifying functional subnetworks and novel candidate genes from raw phylogenetic profiling data.
+**The Challenge:** In computational biology, moving from raw data to insight is often a non-linear, poorly documented process. The challenge is to create a workflow that is not only scientifically sound but also **transparent, modular, and reproducible.**
+
+**Our Solution (What this code demonstrates):** This repository documents the **step-by-step framework** used for this analysis. The scripts are not just one-off tools; they are the modular components of this framework, each performing a distinct, well-documented task (Filter, Enrich, Quantify, Validate, Visualize).
 
 ---
 
 ## 1. Scientific Rationale & Overview
 
-The ciliary system is highly modular. While initial phylogenetic profiling identified major ciliary modules (like IFT and BBS), this project details the computational framework developed to systematically expand upon and quantify this modularity.
+The ciliary system is highly modular. While initial phylogenetic profiling identified major ciliary modules (like IFT and BBS), this pipeline was built to systematically expand upon and quantify this modularity.
 
 The core objective was to take raw cluster data and build a quantitative framework to understand its composition. We systematically classified all cilia-associated clusters (expanding the set from 14 to 27) based on the strength of supporting evidence. Each gene was assigned to a category (e.g., CiliaCarta, Literature, or Novel Candidate), allowing us to move from simple text-based enrichment to a robust analysis of functional subnetworks.
 
