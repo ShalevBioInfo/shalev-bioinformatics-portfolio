@@ -57,15 +57,15 @@ This project is structured as a chronological pipeline, where each script perfor
 
 All Python scripts are robust CLI tools featuring `argparse`, `logging`, and `pathlib` for maximum reproducibility.
 
-| Script | Purpose (One-Liner) |
-| :--- | :--- |
-| `extract_cilia_annotations.py` | (Step 1) Filters a master table for rows matching specific terms (e.g., "cilia"). |
+| Script                                 | Purpose (One-Liner)                                                              |
+| :------------------------------------- | :------------------------------------------------------------------------------- |
+| `extract_cilia_annotations.py`         | (Step 1) Filters a master table for rows matching specific terms (e.g., "cilia"). |
 | `merge_clusters_genes_with_reference.py` | (Step 2) Merges cluster gene lists with an external reference (e.g., CiliaCarta). |
-| `cluster_annotation_summary.py` | (Step 4) Generates summary statistics on category counts (powers Fig. X1). |
-| `co_occurrence_heatmap_cilia_genes.py` | (Step 4) Calculates co-occurrence of *categories* within clusters. |
-| `group_overlap_analysis.py` | (Step 4) Calculates overlap (Jaccard/counts) between *gene lists* of categories. |
-| `extract_subsets_by_terms.py` | (Step 3) Utility script to extract specific functional subgroups for analysis. |
-| `cluster_evidence_viz.py` | (Step 6) Creates the stacked bar plot of evidence composition (powers Fig. X2). |
+| `extract_subsets_by_terms.py`          | (Step 3) Utility script to extract specific functional subgroups for analysis.     |
+| `cluster_annotation_summary.py`        | (Step 4) Generates summary statistics on category counts (powers Fig. X1).       |
+| `co_occurrence_heatmap_cilia_genes.py` | (Step 4) Calculates co-occurrence of *categories* within clusters.               |
+| `group_overlap_analysis.py`            | (Step 4) Calculates overlap (Jaccard/counts) between *gene lists* of categories. |
+| `cluster_evidence_viz.py`              | (Step 6) Creates the stacked bar plot of evidence composition (powers Fig. X2). |
 
 *(Note: The R script `lpp_multi_cluster_heatmap_with_inclusion.R`, used for generating the final LPP heatmaps stratified by evidence (Fig. X3), is located in the [`../heatmap_visualization`](../heatmap_visualization) project folder. It demonstrates advanced multi-cluster visualization with annotations.)*
 
