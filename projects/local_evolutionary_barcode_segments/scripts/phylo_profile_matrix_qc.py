@@ -4,7 +4,7 @@
 # Purpose: Fast, memory‑aware QC/inspection for large phylogenetic profile matrices
 #          (LPP/NPP). Produces a concise summary, problem lists, and optional
 #          downcasted Parquet output. Designed for portfolio publication.
-# Author: Shalev Yaacov  |  Maintainer: (you)
+# Author: Shalev Yaacov  |  refactored for publication
 # Created: 2025-10-28
 #
 # What this script does (macro):
@@ -310,3 +310,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
