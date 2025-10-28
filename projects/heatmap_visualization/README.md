@@ -203,6 +203,10 @@ An example of the multi-cluster annotated heatmap produced by `lpp_multi_cluster
 
 This demonstrates the visualization of distinct clusters with internal clustering and associated evidence annotations.
 
+projects/heatmap_visualization/results/Clusters_Dominated_by_Known_Genes.png
+projects/heatmap_visualization/results/LPP_7_genes_HeatMap_2025.png
+projects/heatmap_visualization/results/NPP_7_genes_HeatMap_2025.png
+
 -----
 
 ## Key Design Choices & Rationale (Short)
@@ -230,3 +234,4 @@ This demonstrates the visualization of distinct clusters with internal clusterin
   * **Contact:** Refer to the top-level repository README.
 
 -----
+
