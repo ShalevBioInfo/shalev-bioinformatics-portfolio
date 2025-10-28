@@ -48,8 +48,8 @@ This project is structured as a chronological pipeline, where each script perfor
 ### Step 6: Visualization
 * **Scientific Goal:** To create final, publication-ready figures summarizing the analysis.
 * **Scripts:**
-    * `cluster_evidence_viz.py`: Generates complex stacked bar plots to visualize the evidence composition of all 27 clusters (as seen in **Figure X2**). ![Distribution of gene evidence categories per cluster](results/gene_category_distribution_per_cluster.png)
-    * `lpp_multi_cluster_heatmap_with_inclusion.R`: (Located in `heatmap_visualization`) Generates the final annotated LPP heatmaps, stratified by evidence category (as seen in **Figure X3**).
+    * `cluster_evidence_viz.py`: Generates complex stacked bar plots to visualize the evidence composition of all 27 clusters, as seen in: ![Distribution of gene evidence categories per cluster](results/gene_category_distribution_per_cluster.png)
+    * `lpp_multi_cluster_heatmap_with_inclusion.R`: (Located in `heatmap_visualization`) Generates the final annotated LPP heatmaps, stratified by evidence category, as seen in ![LPP Heatmap stratified by evidence (Figure X3)](results/Clusters_Dominated_by_Known_Genes.png)
 
 ---
 
