@@ -1,4 +1,4 @@
-# Project: Ciliary Cluster Computational Pipeline
+<img width="5400" height="1500" alt="gene_category_distribution_per_cluster" src="https://github.com/user-attachments/assets/8202ad76-438d-46a5-b17f-b34cdc06ead0" /># Project: Ciliary Cluster Computational Pipeline
 
 **Purpose:** This project serves as a **case study** of a **complete computational framework** developed for solving a common challenge in genomics: moving from raw, large-scale phylogenetic data into a validated, functionally-enriched, and **publishable analysis**.
 
@@ -48,7 +48,7 @@ This project is structured as a chronological pipeline, where each script perfor
 ### Step 6: Visualization
 * **Scientific Goal:** To create final, publication-ready figures summarizing the analysis.
 * **Scripts:**
-    * `cluster_evidence_viz.py`: Generates complex stacked bar plots to visualize the evidence composition of all 27 clusters (as seen in **Figure X2**).
+    * `cluster_evidence_viz.py`: Generates complex stacked bar plots to visualize the evidence composition of all 27 clusters (as seen in **Figure X2**). ![Distribution of gene evidence categories per cluster](results/gene_category_distribution_per_cluster.png)
     * `lpp_multi_cluster_heatmap_with_inclusion.R`: (Located in `heatmap_visualization`) Generates the final annotated LPP heatmaps, stratified by evidence category (as seen in **Figure X3**).
 
 ---
