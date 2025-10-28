@@ -203,9 +203,14 @@ An example of the multi-cluster annotated heatmap produced by `lpp_multi_cluster
 
 This demonstrates the visualization of distinct clusters with internal clustering and associated evidence annotations.
 
-projects/heatmap_visualization/results/Clusters_Dominated_by_Known_Genes.png
-projects/heatmap_visualization/results/LPP_7_genes_HeatMap_2025.png
-projects/heatmap_visualization/results/NPP_7_genes_HeatMap_2025.png
+### 1. Advanced Multi-Cluster Annotation (Figure X3)
+![LPP heatmap showing multiple clusters with Inclusion criteria annotations](results/Clusters_Dominated_by_Known_Genes.png)
+
+### 2. Standard NPP Heatmap (Figure X4)
+![Example NPP heatmap for 7 genes with diverging color scale](results/NPP_7_genes_HeatMap_2025.png)
+
+### 3. Standard LPP Heatmap (Figure X5)
+![Example LPP heatmap for 7 genes with sequential color scale](results/LPP_7_genes_HeatMap_2025.png)
 
 -----
 
@@ -234,4 +239,5 @@ projects/heatmap_visualization/results/NPP_7_genes_HeatMap_2025.png
   * **Contact:** Refer to the top-level repository README.
 
 -----
+
 
