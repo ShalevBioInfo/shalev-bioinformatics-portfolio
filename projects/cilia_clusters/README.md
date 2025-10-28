@@ -1,4 +1,4 @@
-<img width="5400" height="1500" alt="gene_category_distribution_per_cluster" src="https://github.com/user-attachments/assets/8202ad76-438d-46a5-b17f-b34cdc06ead0" /># Project: Ciliary Cluster Computational Pipeline
+# Project: Ciliary Cluster Computational Pipeline
 
 **Purpose:** This project serves as a **case study** of a **complete computational framework** developed for solving a common challenge in genomics: moving from raw, large-scale phylogenetic data into a validated, functionally-enriched, and **publishable analysis**.
 
